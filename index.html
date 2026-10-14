@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Carter | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav>
+      <span class="logo">AC</span>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+    <div class="hero-content">
+      <h1>Hi, I'm Alex Carter</h1>
+      <p class="tagline">Full-stack developer &amp; open source enthusiast</p>
+      <button id="cta-btn">View My Work</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I build web applications with JavaScript, Python, and a passion for clean
+        code. This portfolio was scaffolded with GitHub Copilot assistance during
+        MLH Global Hack Week.
+      </p>
+      <ul class="skills">
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>FastAPI</li>
+        <li>Git &amp; GitHub</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-grid" id="project-grid">
+        <!-- Projects rendered by script.js -->
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <input type="text" id="name" placeholder="Your name" required />
+        <input type="email" id="email" placeholder="Your email" required />
+        <textarea id="message" placeholder="Your message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p id="form-status" class="hidden"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Alex Carter. Built with GitHub Copilot.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
